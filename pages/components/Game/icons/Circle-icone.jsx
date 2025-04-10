@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import React from "react";
 
-export function CrossIcone({ className }) {
+export function CircleIcone({ className }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -13,10 +13,9 @@ export function CrossIcone({ className }) {
       stroke-width="2"
       stroke-linecap="round"
       stroke-linejoin="round"
-      className={clsx(className, " text-rose-500")}
+      className={clsx(className,'text-green-500')}
     >
-      <path d="M18 6 6 18" />
-      <path d="m6 6 12 12" />
+      <circle cx="12" cy="12" r="8" />
     </svg>
   );
 }
