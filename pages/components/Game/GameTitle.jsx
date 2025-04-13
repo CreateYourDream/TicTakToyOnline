@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 import { ArrowLeftIcone } from "./icons/Arrow-Left-Icone";
 import { StarIcone } from "./icons/Star-Icone";
@@ -10,7 +9,7 @@ export function GameTitle() {
     <div className="pl-2">
       <Link
         href="#"
-        className="text-teal-600  hover:text-teal-500 flex items-center gap-2"
+        className="text-teal-600  hover:text-teal-500 flex items-center gap-2 transition-colors duration-200"
       >
         <ArrowLeftIcone className='w-6 h-6'/>
         <p>На главную</p>
